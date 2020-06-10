@@ -2,7 +2,6 @@ body{
     background-image: url('https://source.unsplash.com/900x600/?code');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center center;
     background-size: cover;
 }
 
@@ -38,5 +37,12 @@ a:hover {
 @media only screen and (max-width: 768px) {
     .my-box {
       width: 100%;
+    }
+
+    body {
+        background-image: url('https://source.unsplash.com/600x900/?code');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
     }
   }
