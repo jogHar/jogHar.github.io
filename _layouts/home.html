@@ -4,9 +4,22 @@
         <title>{{page.title}}</title>
     </head>
     <body>
-        <div class="jumbotron">
-            Hello world
-          </div>
+        <div class="container">
+            <div class="my-box">
+                <div class="text-center name-header">Hardik Jogani</div>
+                <div class="d-flex justify-content-center">
+                    <img src="/assets/img/hardik.jpeg" class="rounded-circle">
+                </div>
+                <div class="d-flex justify-content-center mt-3">
+                    <button type="button" class="btn btn-primary mr-1 ml-1">About</button>
+                    <button type="button" class="btn btn-primary mr-1 ml-1">Blogs</button>
+                    <button type="button" class="btn btn-primary mr-1 ml-1">Projects</button>
+                </div>
+                <div class="d-flex justify-content-center mt-3">
+                    <a href="https://www.github.com/{{site.github_username}}" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
         {% include js.html %}
     </body>
 </html>
