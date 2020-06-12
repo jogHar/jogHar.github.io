@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+    <head>
+        {% include css.html %}
+        <title>{{page.title}}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        {% include navbar.html %}
+
+        <div class="container">
+            <ul>
+                {% for post in site.posts %}
+                  <li>
+                    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    {{ post.excerpt }}
+                  </li>
+                {% endfor %}
+              </ul>
+        </div>
+
+        {% include js.html %}
+    </body>
+</html>
