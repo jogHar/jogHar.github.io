@@ -5,19 +5,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <div class="container">
-            <div class="my-box">
-                <div class="text-center name-header">Hardik Jogani</div>
-                <div class="d-flex justify-content-center">
-                    <img src="/assets/img/hardik.jpeg" class="rounded-circle">
-                </div>
-                <div class="d-flex justify-content-center mt-3">
-                    <button type="button" class="btn btn-primary mr-1 ml-1">About</button>
-                    <button type="button" class="btn btn-primary mr-1 ml-1">Blogs</button>
-                    <button type="button" class="btn btn-primary mr-1 ml-1">Projects</button>
-                </div>
-                <div class="d-flex justify-content-center mt-3">
-                    <a href="https://www.github.com/{{site.github_username}}" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+        <div class="body-back">
+            <div class="container">
+                <div class="my-box">
+                    <div class="text-center name-header">Hardik Jogani</div>
+                    <div class="d-flex justify-content-center">
+                        <img src="/assets/img/hardik.jpeg" class="rounded-circle">
+                    </div>
+                    <div class="d-flex justify-content-center mt-3">
+                        <button type="button" class="btn btn-primary mr-1 ml-1">About</button>
+                        <a href="{{site.blogs_url}}"><button type="button" class="btn btn-primary mr-1 ml-1">Blogs</button></a>
+                        <button type="button" class="btn btn-primary mr-1 ml-1">Projects</button>
+                    </div>
+                    <div class="d-flex justify-content-center mt-3">
+                        <a href="https://www.github.com/{{site.github_username}}" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,8 +1,11 @@
-body{
+.body-back{
     background-image: url('https://source.unsplash.com/900x600/?code');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
 
 .name-header {
@@ -39,10 +42,13 @@ a:hover {
       width: 100%;
     }
 
-    body {
+    .body-back {
         background-image: url('https://source.unsplash.com/600x1200/?code');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
+        height: 100%;
+        width: 100%;
+        position: absolute;
     }
   }
