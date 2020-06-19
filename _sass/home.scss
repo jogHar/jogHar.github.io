@@ -37,44 +37,6 @@ a:hover {
     text-decoration: none;
 }
 
-/* Blog listing */
-.blog_list {
-    box-shadow: 0 4px 6px 0 #d1d1d1;
-    padding: 25px 50px;
-    margin-top: 20px;
-    list-style: none;
-}
-.bg_title {
-    color: navy;
-    font-size: 30px;
-    font-weight: 600;
-    margin-bottom: 1em;
-}
-.bg_desc {
-    text-align: justify;
-    font-size: 17px;
-}
-
-/* Blog page */
-.blog_main {
-    box-shadow: 0 4px 6px 0 #d1d1d1;
-    padding: 25px 50px;
-    margin-top: 20px;
-}
-.bgm_title {
-    color: navy;
-    font-size: 30px;
-    font-weight: 600;
-}
-.bgm_date{
-    color: #797878;;
-    font-size: 15px;
-}
-.bgm_desc {
-    text-align: justify;
-    font-size: 17px;
-}
-
 @media only screen and (max-width: 768px) {
     .my-box {
       width: 100%;
