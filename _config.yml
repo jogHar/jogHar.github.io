@@ -2,7 +2,7 @@ title: Hardik Jogani
 email: 
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jogahar.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://joghar.github.io"
 
 # url
 blogs_url: "/blogs"
