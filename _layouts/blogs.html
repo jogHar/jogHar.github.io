@@ -8,11 +8,11 @@
         {% include navbar.html %}
 
         <div class="container">
-            <ul>
+            <ul class="blog_list">
                 {% for post in site.posts %}
                   <li>
-                    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                    {{ post.excerpt }}
+                    <h2 class="bg_title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    <span class="bg_desc">{{ post.excerpt }}</span>
                   </li>
                 {% endfor %}
               </ul>
