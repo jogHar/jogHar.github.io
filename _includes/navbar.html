@@ -1,17 +1,27 @@
 <body>
-    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg sticky-top nav-color-c">
         <a class="navbar-brand" href="{{site.blogs_url}}">{{site.title}}</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="{{site.back_home}}">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="{{site.rss_url}}">RSS</a>
             </li>
           </ul>
           <span class="navbar-text">
-            <a target="_blank" href="{{site.rss_url}}">RSS</a>
+            <div class="theme-switch-wrapper">
+              <i class="fa fa-sun-o" style="font-size: 20px;" aria-hidden="true"></i>
+              <label class="theme-switch" for="checkbox">
+                  <input type="checkbox" id="checkbox" />
+                  <div class="slider round"></div>
+              </label>
+              <i class="fa fa-moon-o" style="font-size: 20px;" aria-hidden="true"></i>
+            </div>
           </span>
         </div>
     </nav>

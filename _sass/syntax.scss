@@ -1,4 +1,11 @@
 
+:root {
+    --code-back-color: #eef;
+}
+[data-theme="dark"] {
+    --code-back-color: #161625;
+}
+
 .highlight {
 	background: #fff;
     border: 0;
@@ -7,8 +14,9 @@
 	pre {
 		margin: 0;
 		padding: 8px 12px;
-		background: #eef;
+		background: var(--code-back-color);
 		border: 1px solid #e8e8e8;
+		color: inherit !important;
 	}
 	.c { color: #999988; font-style: italic } /* Comment */
 	.err { color: #a61717; background-color: #e3d2d2 } /* Error */
