@@ -2,8 +2,8 @@
 layout: post
 title:  "Hello World"
 date:   2020-06-10 08:37:11 +0530
-categories: [unknown]
-tags: [Hello World]
+categories: []
+tags: []
 author: "Hardik Jogani"
 ---
 
