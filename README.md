@@ -1,3 +1,3 @@
 # jogHar.github.io
 
-Images - Thanks [Unsplash](https://unsplash.com/)
+Background Images - Thanks [Unsplash](https://unsplash.com/)
