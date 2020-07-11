@@ -44,56 +44,66 @@ body {
 
 /*Simple css to style it like a toggle switch*/
 .theme-switch-wrapper {
-    display: flex;
-    align-items: center;
-  }
-  .theme-switch {
-    display: inline-block;
-    height: 25px;
-    position: relative;
-    width: 50px;
-    margin: 0px 5px;
-  }
+  display: flex;
+  align-items: center;
+}
+.theme-switch {
+  display: inline-block;
+  height: 25px;
+  position: relative;
+  width: 50px;
+  margin: 0px 5px;
+}
+
+.theme-switch input {
+  display:none;
+}
+
+.slider {
+  background-color: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: .4s;
+}
+
+.slider:before {
+  background-color: #fff;
+  bottom: 4px;
+  content: "";
+  height: 18px;
+  left: 4px;
+  position: absolute;
+  transition: .4s;
+  width: 18px;
+}
+
+input:checked + .slider {
+  background-color: #66bb6a;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
   
-  .theme-switch input {
-    display:none;
+.bg_main {
+  box-shadow: 0px 1px 3px 0px rgb(204, 204, 204);
+  padding: 12px;
+  margin-top: 13px;
+  border-radius: 5px;
+
+  &:hover {
+    box-shadow: 2px 3px 10px 0px rgb(204, 204, 204);
   }
-  
-  .slider {
-    background-color: #ccc;
-    bottom: 0;
-    cursor: pointer;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    transition: .4s;
-  }
-  
-  .slider:before {
-    background-color: #fff;
-    bottom: 4px;
-    content: "";
-    height: 18px;
-    left: 4px;
-    position: absolute;
-    transition: .4s;
-    width: 18px;
-  }
-  
-  input:checked + .slider {
-    background-color: #66bb6a;
-  }
-  
-  input:checked + .slider:before {
-    transform: translateX(26px);
-  }
-  
-  .slider.round {
-    border-radius: 34px;
-  }
-  
-  .slider.round:before {
-    border-radius: 50%;
-  }
-  
+}
