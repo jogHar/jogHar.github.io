@@ -17,4 +17,4 @@ This blog useful for Ubuntu beginner to want install MySQL on Ubuntu.
 
 If you any other query video is shown below,
 
-[![How to install MySQL on Ubuntu](http://img.youtube.com/vi/J2vBe5QCDsg/0.jpg)](http://www.youtube.com/watch?v=J2vBe5QCDsg "How to install MySQL on Ubuntu")
+[![How to install MySQL on Ubuntu](https://img.youtube.com/vi/J2vBe5QCDsg/0.jpg)](http://www.youtube.com/watch?v=J2vBe5QCDsg "How to install MySQL on Ubuntu")
