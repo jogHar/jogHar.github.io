@@ -6,6 +6,7 @@ url: "https://joghar.github.io"
 
 # url
 blogs_url: "/blogs"
+about_url: "/about"
 back_home: "/"
 rss_url: "/rss.xml"
 
