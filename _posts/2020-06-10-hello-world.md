@@ -3,7 +3,7 @@ layout: post
 title:  "Hello World"
 date:   2020-06-10 08:37:11 +0530
 categories: []
-tags: []
+tags: [hello-world, java]
 author: "Hardik Jogani"
 ---
 
