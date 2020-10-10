@@ -26,6 +26,15 @@ body {
     a {
         color: var(--primary-color);
     }
+
+    .m-icon {
+      color: var(--font-color);
+    }
+
+    .m-tag {
+      background-color: var(--bg-color);
+      color: var(--font-color);
+    }
 }
 
 .nav-color-c {
