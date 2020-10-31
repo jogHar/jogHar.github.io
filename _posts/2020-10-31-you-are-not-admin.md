@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "'You are not the owner' when copy other user file in Ubuntu"
-date:   2020-10-21 08:38:11 +0530
+date:   2020-10-31 08:38:11 +0530
 categories: []
 tags: ubuntu
 author: "Hardik Jogani"
