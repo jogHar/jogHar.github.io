@@ -106,7 +106,7 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
   
-.bg_main {
+.bg_main, .tag-archive {
   box-shadow: 0px 1px 3px 0px rgb(204, 204, 204);
   padding: 12px;
   margin-top: 13px;
@@ -119,8 +119,4 @@ input:checked + .slider:before {
 
 .tag-title {
   text-align: center;
-}
-
-.site-tag {
-  width: auto;
 }
