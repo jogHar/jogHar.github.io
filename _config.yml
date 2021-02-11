@@ -23,3 +23,6 @@ permalink: /:year/:month/:day/:title
 sass:
   sass_dir: _sass
   style: compressed
+
+# Google Analytics
+google_analytics: G-ETEEJ08GWD
