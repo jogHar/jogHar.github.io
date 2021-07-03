@@ -6,11 +6,14 @@ url: "https://joghar.github.io"
 
 # url
 blogs_url: "/blogs"
-about_url: "/about"
 back_home: "/"
 rss_url: "/rss.xml"
 
+name: Hardik Jogani
+intro: Java and Angular Developer
+
 github_username: joghar
+mail_id: joganihardik57@gmail.com
 
 feed:
   path: rss.xml
@@ -23,6 +26,3 @@ permalink: /:year/:month/:day/:title
 sass:
   sass_dir: _sass
   style: compressed
-
-# Google Analytics
-google_analytics: G-ETEEJ08GWD

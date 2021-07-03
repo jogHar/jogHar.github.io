@@ -13,17 +13,18 @@
         <div class="body-back">
             <div class="container">
                 <div class="my-box">
-                    <div class="text-center name-header">Hardik Jogani</div>
+                    <div class="text-center name-header">{{site.name}}</div>
+                    <div class="text-center description">{{site.intro}}</div>
                     <div class="d-flex justify-content-center">
-                        <img src="/assets/img/hardik.jpeg" class="rounded-circle" alt="Hardik Jogani">
+                        <img src="/assets/img/hardik.jpg" class="rounded-circle main-frame" alt="Hardik Jogani">
                     </div>
                     <div class="d-flex justify-content-center mt-3">
-                        <a href="{{site.about_url}}"><button type="button" class="btn btn-outline-dark mr-1 ml-1">About</button></a>
                         <a href="{{site.blogs_url}}"><button type="button" class="btn btn-outline-dark mr-1 ml-1">Blogs</button></a>
-                        <button type="button" class="btn btn-outline-dark mr-1 ml-1">Projects</button>
+                        <!-- <button type="button" class="btn btn-outline-dark mr-1 ml-1">Projects</button> -->
                     </div>
                     <div class="d-flex justify-content-center mt-3">
                         <a href="https://www.github.com/{{site.github_username}}" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                        <a href="mailto:{{site.mail_id}}" target="_blank"><i class="fa fa-envelope fa-2x ml-2" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </div>
